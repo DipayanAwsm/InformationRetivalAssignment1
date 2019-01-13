@@ -1,0 +1,18 @@
+Using a text collection of at least 4GB, create an inverted index using each of the following methods. For
+this exercise, we will use words as terms. In both cases, the final output should be the same.
+Method 1:
+Read through each document in the collection. For each word, lookup whether the word is already in the
+vocabulary. If it is, then append the document ID to the posting list corresponding to the word. Otherwise
+insert the word into the vocabulary and add the document ID to its posting list.
+Your program should output some progress periodically, say, after processing a certain number of
+documents or a certain amount of text.
+Method 2:
+Read through each document in the collection. For each word, write out (word, document ID) pairs in a
+separate file. Then, sort the file by word (you are encouraged to use some built in sorting, for example
+linux sort command). Now, scan through the sorted file once to create the posting lists.
+Instructions:
+Choose any programming language of your choice.
+Experiment with the size of the collection to report a comparative analysis of the running time of the two
+methods.
+Both of your programs should take a directory (folder) path as input and write the index into some folder
+or file.
