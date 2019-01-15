@@ -35,7 +35,7 @@ How to run the code
 	$ java DipayanMainInvertedIndexMethod2 folderLocation
 			Its tempfiles will be generated in method2Temp
 			Its output will be generated in method2 folder
-*special Note for run
+*special Note for run 
 
  
 
